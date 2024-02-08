@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div>
-        <h1>Query my tweets</h1>
+        <h1>Query climate change and environmental data</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
@@ -48,9 +48,9 @@ export default function Home() {
       <div className={styles.examples}>
         <h2>Try some sample questions like...</h2>
         <ul>
-          <li>What television shows does the author watch?</li>
-          <li>Does the author like dogs?</li>
-          <li>How does the author feel about web frameworks?</li>
+          <li>Is climate change real?</li>
+          <li>What can we do to help the environment?</li>
+          <li>What is the main contributor to global warming?</li>
         </ul>
       </div>
     </main>
