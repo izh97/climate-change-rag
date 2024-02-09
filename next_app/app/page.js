@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 export default function Home() {
   const [query, setQuery] = useState('');
-  const [responseText, setResponseText] = useState('');
+  const [responseText, setResponseText] = useState('Let us help the environment!');
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -42,8 +42,12 @@ export default function Home() {
           <button type="submit">Submit</button>
         </form>
       </div>
-      <div className={styles.response}>
-        {responseText}
+      <div className={styles.responseContainer}>
+        <img src="./robot_helper.png" alt="Robot" className={styles.robotImage}/>
+        <span className={styles.colon}>:</span>
+        <div className={styles.response}>
+          {responseText}
+        </div>
       </div>
       <div className={styles.examples}>
         <h2>Try some sample questions like:</h2>
