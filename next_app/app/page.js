@@ -46,7 +46,7 @@ export default function Home() {
         {responseText}
       </div>
       <div className={styles.examples}>
-        <h2>Try some sample questions like...</h2>
+        <h2>Try some sample questions like:</h2>
         <ul>
           <li>Is climate change real?</li>
           <li>What can we do to help the environment?</li>
