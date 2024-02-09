@@ -35,7 +35,7 @@
 .robotImage {
   width: 100px; /* Adjust according to the size of your image */
   height: auto;
-  margin-right: -5px; 
+  margin-right: -10px; 
   margin-top: 10px;
 }
 .robotColon {
