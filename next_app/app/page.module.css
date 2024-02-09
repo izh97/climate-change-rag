@@ -45,3 +45,16 @@
 .examples {
   margin-top: 2em;
 }
+.examples ul {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 0; /* Remove default padding if desired */
+}
+
+.examples li {
+  background-image: url('/images/bullet_point.png'); /* Path to your custom bullet image */
+  background-repeat: no-repeat;
+  background-position: 0 5px; /* Adjust the position of the bullet */
+  padding-left: 40px; /* Space for the bullet image and some padding between the bullet and text */
+  background-size: 20px 20px; /* Optional: Adjust the size of the bullet image */
+}
+
