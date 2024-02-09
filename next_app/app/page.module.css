@@ -33,12 +33,12 @@
   border-radius: 0.5rem;
 }
 .robotImage {
-  width: 50px; /* Adjust according to the size of your image */
+  width: 100px; /* Adjust according to the size of your image */
   height: auto;
 }
 .robotColon {
   display: inline-block;
-  transform: translateY(5px); /* Adjust the value as needed */
+  transform: translateY(10px); /* Adjust the value as needed */
 }
 .examples {
   margin-top: 2em;
