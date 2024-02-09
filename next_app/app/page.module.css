@@ -35,10 +35,12 @@
 .robotImage {
   width: 100px; /* Adjust according to the size of your image */
   height: auto;
+  margin-right: -5px; 
+  margin-top: 10px;
 }
 .robotColon {
   display: inline-block;
-  transform: translateY(10px); /* Adjust the value as needed */
+  transform: translateY(12px); /* Adjust the value as needed */
 }
 .examples {
   margin-top: 2em;
