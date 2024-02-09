@@ -43,7 +43,7 @@ export default function Home() {
         </form>
       </div>
       <div className={styles.responseContainer}>
-        <img src="./robot_helper.png" alt="Robot" className={styles.robotImage}/>
+        <img src="/robot.png" alt="Robot" className={styles.robotImage}/>
         <span className={styles.colon}>:</span>
         <div className={styles.response}>
           {responseText}
