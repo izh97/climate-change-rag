@@ -45,8 +45,23 @@
 }
 .examples {
   margin-top: 2em;
-
+  text-shadow:
+  -1px -1px 0 #fff,  
+  1px -1px 0 #fff,
+  -1px  1px 0 #fff,
+  1px  1px 0 #fff; /* White shadow for dark text */
 }
+@media (prefers-color-scheme: dark) {
+  .examples {
+    /* Existing dark mode styles */
+    text-shadow:
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000; /* Black shadow for light text */
+  }
+}
+
 
 .examples ul {
   list-style-type: none; /* Remove default bullets */
