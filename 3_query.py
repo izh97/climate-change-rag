@@ -1,9 +1,6 @@
-## This shows how to load your pre-indexed data from mongo and query it
-## Note that you MUST manually create a vector search index before this will work
-## and you must pass in the name of that index when connecting to Mongodb below 
+#Example of querying our vectorized data
 from dotenv import load_dotenv
 load_dotenv()
-
 # Turns on really noisy logging
 import logging
 import sys

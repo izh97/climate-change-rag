@@ -1,7 +1,4 @@
-## This script imports the tinytweets.json file into your mongo database
-## It will work for any json file containing a single array of objects
-## There's nothing specific to llamaindex going on here
-## You can get your data into mongo any way you like.
+## This script imports the cleaned_climate_data.json file into our mongo database
 
 json_file = 'cleaned_climate_data.json'
 
@@ -14,7 +11,7 @@ import json
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-# Load the tweets from a local file
+# Load the climate data from a local file
 with open(json_file,"r", encoding="utf-8") as f:
     climate = json.load(f)
 # Create a new client and connect to the server
