@@ -5,6 +5,11 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
+    /* Light mode gradient */
+  --examples-text-gradient: linear-gradient(45deg, #ffd700, #ff8c00);
+
+  /* Dark mode gradient */
+  --examples-text-gradient-dark: linear-gradient(45deg, #4b0082, #0000ff);
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 198, 224, 180; /* Light green */
   --background-end-rgb: 143, 188, 139; /* Darker green */

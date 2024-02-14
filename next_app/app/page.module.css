@@ -45,6 +45,19 @@
 }
 .examples {
   margin-top: 2em;
+  background: var(--examples-text-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (prefers-color-scheme: dark) {
+  .examples {
+    background: var(--examples-text-gradient-dark);
+    /* Ensure the rest of the properties are included as well */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; /* Correct usage */
+  }
 }
 .examples ul {
   list-style-type: none; /* Remove default bullets */
