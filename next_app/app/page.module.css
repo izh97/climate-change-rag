@@ -45,12 +45,8 @@
 }
 .examples {
   margin-top: 2em;
-  font-size: 1.05rem;
-  text-shadow:
-  -1px -1px 0 #fff,  
-  1px -1px 0 #fff,
-  -1px  1px 0 #fff,
-  1px  1px 0 #fff; /* White shadow for dark text */
+  font-size: 1.1rem;
+
 }
 @media (prefers-color-scheme: dark) {
   .main {
@@ -69,7 +65,7 @@
   .examples {
     /* Existing dark mode styles */
     margin-top: 2em;
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     text-shadow:
       -1px -1px 0 #000,  
        1px -1px 0 #000,
