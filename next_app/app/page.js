@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 export default function Home() {
   const [query, setQuery] = useState('');
-  const [responseText, setResponseText] = useState('Let us help the environment!');
+  const [responseText, setResponseText] = useState('Let us learn about the environment!');
   const loadingMessages = [
     "Recycling some thoughts... Be right back!",
     "Gathering solar energy for some bright ideas...",
@@ -65,9 +65,9 @@ export default function Home() {
       <div className={styles.examples}>
         <h2>Try some sample questions like:</h2>
         <ul>
-          <li>What can we do to help the environment?</li>
           <li>Can you provide examples of the effects of global warming on our environment?</li>
-          <li>What is the main contributor to global warming?</li>
+          <li>What is the main contributor to global warming worldwide?</li>
+          <li>What can we do to help the environment?</li>
         </ul>
       </div>
     </main>
