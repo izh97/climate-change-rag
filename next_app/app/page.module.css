@@ -5,6 +5,11 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  text-shadow:
+  -1px -1px 0 #fff,  
+   1px -1px 0 #fff,
+  -1px  1px 0 #fff,
+   1px  1px 0 #fff; /* White shadow for dark text */
 }
 
 .main form input {
@@ -46,7 +51,11 @@
 .examples {
   margin-top: 2em;
   font-size: 1.1rem;
-
+  text-shadow:
+  -1px -1px 0 #fff,  
+   1px -1px 0 #fff,
+  -1px  1px 0 #fff,
+   1px  1px 0 #fff; /* White shadow for dark text */
 }
 @media (prefers-color-scheme: dark) {
   .main {
