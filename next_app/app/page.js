@@ -5,14 +5,13 @@ import React, { useState } from 'react';
 
 export default function Home() {
   const [query, setQuery] = useState('');
-  const [responseText, setResponseText] = useState('Let us learn about the environment!');
+  const [responseText, setResponseText] = useState('To save energy and protect the environment, I am currently in standby mode. Your first query may take a while.');
   const loadingMessages = [
     "Recycling some thoughts... Be right back!",
     "Gathering solar energy for some bright ideas...",
     "Planting the seeds for your answer... Stay tuned!",
     "Catching the wind for a breezy solution... Hang tight!",
     "Consulting the climate models... One moment, please.",
-    "Turning off standby mode to save energy... and to get your answer!",
     "Filtering through data like clean water... Your answer is coming up!"
   ];
   const getRandomLoadingMessage = () => {
