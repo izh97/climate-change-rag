@@ -6,10 +6,10 @@
   padding: 6rem;
   min-height: 100vh;
   text-shadow:
-  -1px -1px 0 #fff,  
-   1px -1px 0 #fff,
-  -1px  1px 0 #fff,
-   1px  1px 0 #fff; /* White shadow for dark text */
+  -1px -1px 0 #000,  
+  1px -1px 0 #000,
+  -1px  1px 0 #000,
+  1px  1px 0 #000; /* Black shadow for light text */
 }
 
 .main form input {
@@ -48,54 +48,21 @@
   display: inline-block;
   transform: translateY(12px); /* Adjust the value as needed */
   text-shadow:
-  -1px -1px 0 #fff,  
-   1px -1px 0 #fff,
-  -1px  1px 0 #fff,
-   1px  1px 0 #fff; /* White shadow for dark text */
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000; /* Black shadow for light text */
 }
 .examples {
   margin-top: 2em;
   font-size: 1.1rem;
   text-shadow:
-  -1px -1px 0 #fff,  
-   1px -1px 0 #fff,
-  -1px  1px 0 #fff,
-   1px  1px 0 #fff; /* White shadow for dark text */
+   -1px -1px 0 #000,  
+   1px -1px 0 #000,
+  -1px  1px 0 #000,
+   1px  1px 0 #000; /* Black shadow for light text */
 }
-@media (prefers-color-scheme: dark) {
-  .main {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    padding: 6rem;
-    min-height: 100vh;
-    text-shadow:
-      -1px -1px 0 #000,  
-       1px -1px 0 #000,
-      -1px  1px 0 #000,
-       1px  1px 0 #000; /* Black shadow for light text */
-  }
-  .examples {
-    /* Existing dark mode styles */
-    margin-top: 2em;
-    font-size: 1.1rem;
-    text-shadow:
-      -1px -1px 0 #000,  
-       1px -1px 0 #000,
-      -1px  1px 0 #000,
-       1px  1px 0 #000; /* Black shadow for light text */
-  }
-  .robotColon {
-    display: inline-block;
-    transform: translateY(12px); /* Adjust the value as needed */
-    text-shadow:
-    -1px -1px 0 #000,  
-     1px -1px 0 #000,
-    -1px  1px 0 #000,
-     1px  1px 0 #000; /* Black shadow for light text */
-  }
-}
+
 
 
 .examples ul {
