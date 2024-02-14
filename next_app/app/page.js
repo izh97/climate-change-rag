@@ -6,10 +6,23 @@ import React, { useState } from 'react';
 export default function Home() {
   const [query, setQuery] = useState('');
   const [responseText, setResponseText] = useState('Let us help the environment!');
+  const loadingMessages = [
+    "Recycling some thoughts... Be right back!",
+    "Gathering solar energy for some bright ideas...",
+    "Planting the seeds for your answer... Stay tuned!",
+    "Catching the wind for a breezy solution... Hang tight!",
+    "Consulting the climate models... One moment, please.",
+    "Turning off standby mode to save energy... and to get your answer!",
+    "Filtering through data like clean water... Your answer is coming up!"
+  ];
+  const getRandomLoadingMessage = () => {
+    const randomIndex = Math.floor(Math.random() * loadingMessages.length);
+    return loadingMessages[randomIndex];
+  };
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    setResponseText('Thinking...')
+    setResponseText(getRandomLoadingMessage());
 
     const formData = new FormData();
     formData.append('query', query);
@@ -52,8 +65,8 @@ export default function Home() {
       <div className={styles.examples}>
         <h2>Try some sample questions like:</h2>
         <ul>
-          <li>Is climate change real?</li>
           <li>What can we do to help the environment?</li>
+          <li>Can you provide examples of the effects of global warming on our environment?</li>
           <li>What is the main contributor to global warming?</li>
         </ul>
       </div>
