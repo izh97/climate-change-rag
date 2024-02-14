@@ -20,7 +20,8 @@
 .responseContainer {
   display: flex;
   align-items: center;
-  gap: 10px; 
+  gap: 8px; 
+  margin-left: -10px; /* Shift everything to the left */
 }
 
 .response {
