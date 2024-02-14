@@ -55,6 +55,6 @@
   background-repeat: no-repeat;
   background-position: 0 5px; /* Adjust the position of the bullet */
   padding-left: 40px; /* Space for the bullet image and some padding between the bullet and text */
-  background-size: 10px 10px; /* Optional: Adjust the size of the bullet image */
+  background-size: 15px 15px; /* Optional: Adjust the size of the bullet image */
 }
 
