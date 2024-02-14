@@ -45,7 +45,7 @@
 }
 .examples {
   margin-top: 2em;
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   text-shadow:
   -1px -1px 0 #fff,  
   1px -1px 0 #fff,
@@ -69,7 +69,7 @@
   .examples {
     /* Existing dark mode styles */
     margin-top: 2em;
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     text-shadow:
       -1px -1px 0 #000,  
        1px -1px 0 #000,
