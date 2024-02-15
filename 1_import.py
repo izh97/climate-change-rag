@@ -1,5 +1,4 @@
 ## This script imports the cleaned_climate_data.json file into our mongo database
-
 json_file = 'cleaned_climate_data.json'
 
 # Load environment variables from local .env file
